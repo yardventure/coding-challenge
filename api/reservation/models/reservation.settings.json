@@ -17,7 +17,7 @@
       "enum": [
         "pending",
         "selected",
-        "confirmation"
+        "confirmed"
       ],
       "default": "pending"
     },
