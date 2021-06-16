@@ -1,0 +1,28 @@
+{
+  "kind": "collectionType",
+  "collectionName": "reservations",
+  "info": {
+    "name": "reservation",
+    "description": ""
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": false
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "stage": {
+      "type": "enumeration",
+      "enum": [
+        "pending",
+        "selected",
+        "confirmation"
+      ],
+      "default": "pending"
+    },
+    "payUntil": {
+      "type": "date"
+    }
+  }
+}
