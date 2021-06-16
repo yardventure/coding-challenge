@@ -37,7 +37,7 @@ Steps:
 
 Expected result:
 1. Let's say we have a reservation with id `1` which has stage `pending`
-2. After calling `http://localhost:1337/reservation/stage/1/confirmed` reservation stage will be changed to `confirmed`
+2. After calling `http://localhost:1337/reservation/stage/1/confirmed` reservation with id `1` stage will be changed to `confirmed`
 
 Docs:
 1. https://strapi.io/documentation/developer-docs/latest/development/backend-customization.html#routing
