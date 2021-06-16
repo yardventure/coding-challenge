@@ -19,7 +19,7 @@ Steps:
 
 Expected result:
 1. Navigate to `Reservation` content. Select `Add New Reservation` and press `Save` new reservation without providing any details.
-2. Project should update `payUntil` field to today's date. (If new reservation was created `2021-06-16` then `payUntil` date field after creation should be `2021-06-16`)
+2. Project should update `payUntil` field to today's date. (If new reservation was created on `2021-06-16` then `payUntil` date field after creation should be `2021-06-16`)
 
 Docs:
 1. https://strapi.io/documentation/developer-docs/latest/development/backend-customization.html#lifecycle-hooks
