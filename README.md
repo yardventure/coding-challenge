@@ -4,7 +4,7 @@
 
 1. Clone project `https://github.com/yardventure/coding-challenge.git`
 2. Navigate to coding-challenge folder and run `yarn install` or `npm install`
-3. After installation start project by using `yarn develop` or `npm develop`
+3. After installation start project by using `yarn develop` or `npm run develop`
 4. Create temporary account
 
 ## Challenges
